@@ -53,3 +53,7 @@ func convertHundreds(num int) string {
 		return units[num/100] + " ratus " + convertHundreds(num%100)
 	}
 }
+
+func HelloLumoAcademy(name string) string {
+	return "Pagi " + name
+}
